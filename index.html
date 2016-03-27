@@ -3,7 +3,7 @@
 
 <head language="en">
     <meta charset="UTF-8">
-	<title>FreeCodeCamp Wikipedia Viewer</title>
+	<title>FreeCodeCamp: Wikipedia Viewer</title>
 	
 	<meta name="author" content="Deryx E. Scott" />
 	<meta name="keywords" content="" />
@@ -11,8 +11,7 @@
 	
 	<link href="styles/normalize.css" rel="stylesheet" />
 	<link href="styles/styles.css" rel="stylesheet" />
-	<link rel="EditURI" type="application/rsd+xml" href="//www.mediawiki.org/w/api.php?action=rsd" />
-	
+
 	<script src="scripts/jquery-1.11.2.min.js"></script>
 </head>
 
@@ -27,7 +26,13 @@
 		<h2>FreeCodeCamp</h2>
 		<h1>Wikipedia Viewer</h1>
 	</hgroup>
+
+	<p><input type="search" id="subject" /></p>
+	<button id="btnRandom">random</button>
+	<button id="btnClear">clear</button>
 </section>
+
+<section class="results"></section>
 
 
 <!-- JavaScript -->
