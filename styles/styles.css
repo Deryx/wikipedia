@@ -67,6 +67,14 @@ section h1 {
 	font-size: 120%;
 }
 
+input {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding: 10px;
+	border: none;
+}
+
 a {
 	display: block;
 	text-decoration: none;
